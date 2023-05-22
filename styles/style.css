@@ -1,0 +1,1760 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type=search] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+*::after,
+*::before,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: "Semibold";
+  src: url(/assets/fonts/Lato-Semibold.woff2);
+}
+@font-face {
+  font-family: "Bold";
+  src: url(/assets/fonts/Lato-Bold.woff2);
+}
+@font-face {
+  font-family: "ExtraBold";
+  src: url(/assets/fonts/Lato-Black.woff2);
+}
+@font-face {
+  font-family: "Regular";
+  src: url(/assets/fonts/Lato-Regular.woff2);
+}
+body {
+  font-family: Semibold;
+}
+
+main #blog .wrapper .card .info, main #blog .wrapper, main #all_courses .wrapper .card .wrap, main #all_courses .wrapper, main #all_courses .top, main #comments .wrapper .card .btn, main #comments .wrapper, main #advantages .wrapper, main #intro .wrapper, header .nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main #courses .wrapper, main #advantages .wrapper .adv {
+  display: flex;
+  align-items: flex-start;
+}
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  z-index: 9;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background: #f1f0ee;
+}
+header .nav {
+  height: 84px;
+}
+header .nav__list {
+  display: flex;
+  column-gap: 35px;
+  align-items: center;
+}
+header .nav__list__item {
+  list-style-type: none;
+}
+header .nav__list__item .burger_menu {
+  display: none;
+}
+header .nav__list__item-link {
+  font-family: "Medium";
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #030f1a;
+}
+header .nav__list__item-link:hover {
+  color: silver;
+}
+header .nav__list__item-btn {
+  padding: 11px 49.7px 11px 49.3px;
+  height: 44px;
+  background: #ffffff;
+  border-radius: 100px;
+  border: none;
+}
+header .nav__list__item-moon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: #f5f5f5;
+  border-radius: 100px;
+  border: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  header {
+    background: #0f1826;
+  }
+  header a {
+    color: #fff !important;
+  }
+}
+main #intro {
+  background: #f1f0ee;
+  padding-top: 123px;
+}
+main #intro .wrapper .left .left_txt {
+  min-width: 325px;
+}
+main #intro .wrapper .left .left_txt h1 {
+  font-family: Bold;
+  font-size: 40px;
+  line-height: 56px;
+  letter-spacing: -0.8px;
+  color: #000000;
+  margin-bottom: 19px;
+}
+main #intro .wrapper .left .left_txt h1 span {
+  color: #ba8d5b;
+}
+main #intro .wrapper .left .left_txt p {
+  font-family: Semibold;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.36px;
+  color: #607987;
+}
+main #intro .wrapper button {
+  margin-top: 70px;
+  border: none;
+  font-family: Bold;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 13px 47.8px 13px 46px;
+  background: #ba8d5b;
+  border-radius: 100px;
+}
+main #advantages {
+  padding-top: 48px;
+}
+main #advantages h2 {
+  margin-bottom: 48px;
+  font-family: ExtraBold;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.64px;
+  color: #0f1826;
+}
+main #advantages .wrapper {
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+main #advantages .wrapper .adv {
+  height: 138px;
+  column-gap: 40px;
+}
+main #advantages .wrapper .adv .right h3 {
+  margin-bottom: 14px;
+  font-family: SemiBold;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: -0.4px;
+  color: #0f1826;
+}
+main #advantages .wrapper .adv .right p {
+  max-width: 450px;
+  font-family: Regular;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.28px;
+  color: #607987;
+}
+main #advantages .adv_more {
+  margin-top: -40px;
+  display: flex;
+  column-gap: 12px;
+  padding-bottom: 48px;
+}
+main #advantages .adv_more a {
+  font-family: Semibold;
+  font-size: 16px;
+  letter-spacing: -0.32px;
+  color: #0eb182;
+  text-decoration: none;
+}
+main #advantages .adv_more button {
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  background: rgba(186, 141, 91, 0.1);
+  border-radius: 12px;
+}
+main #courses {
+  height: 341px;
+  background: #f9f8f7;
+}
+main #courses h3 {
+  padding-top: 48px;
+  margin-bottom: 24px;
+  font-family: ExtraBold;
+  font-size: 32px;
+  letter-spacing: -0.64px;
+  color: #0f1826;
+}
+main #courses p {
+  font-family: SemiBold;
+  font-weight: 600;
+  font-size: 16px;
+  color: #607987;
+}
+main #courses .wrapper {
+  flex-wrap: wrap;
+  margin-top: 24px;
+  column-gap: 33px;
+  padding-bottom: 18px;
+}
+main #courses .wrapper .course {
+  width: 254.5px;
+  height: 97px;
+  padding: 16px 17px 17px;
+  border: 1px solid #607987;
+  border-radius: 4px;
+}
+main #courses .wrapper .course h4 {
+  margin-bottom: 12px;
+  font-family: Bold;
+  font-size: 20px;
+  letter-spacing: -0.4px;
+  color: #0f1826;
+}
+main #courses .wrapper .course p {
+  font-family: Regular;
+  font-size: 16px;
+  letter-spacing: -0.32px;
+  color: #607987;
+}
+main #courses a {
+  font-family: Semibold;
+  font-size: 16px;
+  letter-spacing: -0.32px;
+  color: #0eb182;
+  text-decoration: none;
+}
+main #partners {
+  background-color: #ffffff;
+}
+main #partners h5 {
+  padding-top: 48px;
+  margin-bottom: 24px;
+  font-family: ExtraBold;
+  font-size: 32px;
+}
+main #partners p {
+  margin-bottom: 48px;
+  font-family: Semibold;
+  font-size: 16px;
+  color: #607987;
+}
+main #partners .wrapper {
+  padding-bottom: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 31px;
+}
+main #partners .wrapper .card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 160px;
+  height: 100px;
+  background: #f9f8f7;
+  border-radius: 8px;
+}
+main #partners .slider {
+  display: none;
+}
+main #comments h2 {
+  padding-top: 48px;
+  margin-bottom: 24px;
+  font-family: ExtraBold;
+  font-size: 32px;
+}
+main #comments p {
+  margin-bottom: 48px;
+  font-family: Semibold;
+  font-size: 16px;
+  color: #607987;
+}
+main #comments .slider {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  column-gap: 20px;
+  display: none;
+}
+main #comments .wrapper {
+  padding-bottom: 110px;
+}
+main #comments .wrapper .card {
+  position: relative;
+  padding: 16px;
+  width: 232.25px;
+  height: 420px;
+}
+main #comments .wrapper .card .btn {
+  padding: 6px;
+  width: 127px;
+  height: 40px;
+  background-color: #ffffff;
+  border-radius: 100px;
+}
+main #comments .wrapper .card .btn button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  width: 28px;
+  height: 28px;
+  background: #ba8d5b;
+  border-radius: 14px;
+}
+main #comments .wrapper .card .btn a {
+  font-family: Bold;
+  text-decoration: none;
+  font-size: 12px;
+  color: #000000;
+}
+main #comments .wrapper .card .pre {
+  top: 335px;
+  position: absolute;
+  margin-bottom: 7px;
+  font-family: "SemiBold";
+  font-size: 12px;
+  letter-spacing: -0.24px;
+  color: #ffffff;
+}
+main #comments .wrapper .card .position {
+  top: 357px;
+  position: absolute;
+  margin-bottom: 6px;
+  font-family: "SemiBold";
+  font-size: 12px;
+  letter-spacing: -0.24px;
+  color: #7cd1ac;
+}
+main #comments .wrapper .card .title {
+  top: 378px;
+  position: absolute;
+  margin-bottom: 0;
+  font-family: Bold;
+  font-size: 16px;
+  color: #ffffff;
+}
+main #comments .wrapper .card:nth-child(1) {
+  background-image: url(/assets/images/person1.png);
+}
+main #comments .wrapper .card:nth-child(2) {
+  background-image: url(/assets/images/person2.png);
+}
+main #comments .wrapper .card:nth-child(3) {
+  background-image: url(/assets/images/person3.png);
+}
+main #comments .wrapper .card:nth-child(4) {
+  background-image: url(/assets/images/person4.png);
+}
+main #form {
+  padding-bottom: 120px;
+}
+main #form input:focus {
+  outline: none;
+}
+main #form .wrapper {
+  display: flex;
+  width: 1118px;
+  height: 634.08px;
+  left: 401px;
+  top: 2686px;
+  background: #f9f8f7;
+  border-radius: 20px;
+}
+main #form .wrapper .left {
+  width: 512px;
+  height: 634.08px;
+  background-image: url(/assets/images/assistent.png);
+}
+main #form .wrapper .right {
+  margin-top: 32px;
+  margin-left: 32px;
+  width: 448px;
+  height: 570.08px;
+  background: #ffffff;
+  border-radius: 16px;
+}
+main #form .wrapper .right form {
+  padding: 40px 45px;
+}
+main #form .wrapper .right form h1 {
+  font-family: SemiBold;
+  font-size: 24px;
+  color: #0f1826;
+  margin-bottom: 16px;
+}
+main #form .wrapper .right form p {
+  margin-bottom: 32px;
+  font-family: Medium;
+  font-size: 16px;
+  line-height: 24px;
+  color: #607987;
+}
+main #form .wrapper .right form p span {
+  color: #ba8d5b;
+}
+main #form .wrapper .right form label {
+  font-family: SemiBold;
+  font-size: 14px;
+  letter-spacing: -0.28px;
+  color: rgba(0, 0, 0, 0.35);
+}
+main #form .wrapper .right form .in_name {
+  margin-bottom: 16px;
+  margin-top: 6px;
+  font-family: Regular;
+  font-size: 14px;
+  color: #c4c4c4;
+  background: #ffffff;
+  border: 1px solid #dadada;
+  border-radius: 100px;
+  padding: 14px 17px;
+  width: 100%;
+  height: 45px;
+}
+main #form .wrapper .right form .in_tel {
+  margin-bottom: 40px;
+  margin-top: 6px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #dadada;
+  border-radius: 100px;
+  padding: 14px 17px;
+  width: 100%;
+}
+main #form .wrapper .right form .in_tel input {
+  padding-left: 3px;
+  border: none;
+}
+main #form .wrapper .right form .in_tel h3 {
+  font-family: Regular;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+}
+main #form .wrapper .right form .in_tel input::placeholder {
+  color: #c4c4c4;
+}
+main #form .wrapper .right form a {
+  font-family: SemiBold;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+main #form .wrapper .right form a span {
+  color: #ba8d5b;
+}
+main #form .wrapper .right form button {
+  margin-top: 22px;
+  height: 45px;
+  border: none;
+  width: 100%;
+  background: #ba8d5b;
+  border-radius: 100px;
+  font-family: Bold;
+  font-size: 16px;
+  color: #ffffff;
+}
+main #all_courses {
+  padding-top: 84px;
+}
+main #all_courses .pre {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  display: flex;
+  column-gap: 12px;
+}
+main #all_courses .pre p {
+  font-family: Regular;
+  font-size: 16px;
+  line-height: 22px;
+  color: #c4c4c4;
+}
+main #all_courses .pre h2 {
+  font-family: Regular;
+  font-size: 16px;
+  color: #ba8d5b;
+}
+main #all_courses .top {
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+main #all_courses .top h1 {
+  width: 50%;
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-family: ExtraBold;
+  font-size: 32px;
+  letter-spacing: -0.64px;
+  color: #0f1826;
+}
+main #all_courses .top .left {
+  margin-bottom: 72px;
+}
+main #all_courses .top .left .active {
+  margin-right: 16px;
+  background: #ba8d5b;
+  color: #ffffff;
+}
+main #all_courses .top .left button {
+  border: none;
+  font-family: SemiBold;
+  font-size: 14px;
+  text-align: center;
+  background: #f7f7f5;
+  border-radius: 32px;
+  color: rgba(0, 0, 0, 0.7);
+  padding: 16px 26px;
+}
+main #all_courses .top .search_in {
+  position: relative;
+  display: flex;
+}
+main #all_courses .top .search_in input {
+  padding-left: 15px;
+  border: none;
+  width: 350px;
+  height: 48.39px;
+  background: #f7f7f5;
+  border-radius: 100px;
+}
+main #all_courses .top .search_in input:focus {
+  outline: none;
+}
+main #all_courses .top .search_in img {
+  position: absolute;
+  right: 18px;
+  top: 16px;
+}
+main #all_courses .wrapper {
+  padding-bottom: 48px;
+}
+main #all_courses .wrapper .card {
+  padding: 24px;
+  width: 543.5px;
+  height: 314px;
+  background: #f9f8f7;
+  border-radius: 4px;
+}
+main #all_courses .wrapper .card .info {
+  align-items: center;
+  display: flex;
+  column-gap: 23px;
+}
+main #all_courses .wrapper .card .info button {
+  border: none;
+  background: #d1d1d1;
+  border-radius: 4px;
+  font-family: Medium;
+  font-size: 14px;
+  color: #000000;
+  padding: 5px 12px;
+}
+main #all_courses .wrapper .card .info p {
+  font-family: Regular;
+  font-size: 14px;
+  color: #ba8d5b;
+}
+main #all_courses .wrapper .card .wrap .left h2 {
+  max-width: 284px;
+  margin-top: 42px;
+  margin-bottom: 24px;
+  font-family: Bold;
+  font-size: 28px;
+  letter-spacing: -0.56px;
+  color: #000000;
+}
+main #all_courses .wrapper .card .wrap .left h3 {
+  max-width: 260px;
+  font-family: Regular;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -0.28px;
+  color: rgba(0, 0, 0, 0.7);
+}
+main #all_courses .wrapper .card .wrap .left .txt4 {
+  max-width: 269px;
+}
+main #all_courses .wrapper .card .wrap .left .dotnet {
+  margin-top: 25px;
+}
+main #all_courses .wrapper .card .wrap .right {
+  margin-top: 32px;
+}
+main #all_courses .tablet {
+  display: none;
+}
+main #blog {
+  padding-top: 84px;
+}
+main #blog .pre {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  display: flex;
+  column-gap: 12px;
+}
+main #blog .pre p {
+  font-family: Regular;
+  font-size: 16px;
+  line-height: 22px;
+  color: #c4c4c4;
+}
+main #blog .pre h2 {
+  font-family: Regular;
+  font-size: 16px;
+  color: #ba8d5b;
+}
+main #blog .btns {
+  margin-bottom: 64px;
+  display: flex;
+  column-gap: 16px;
+}
+main #blog .btns .active {
+  background: #ba8d5b;
+  color: #ffffff;
+}
+main #blog .btns button {
+  border: none;
+  font-family: SemiBold;
+  font-size: 14px;
+  text-align: center;
+  background: #f7f7f5;
+  border-radius: 32px;
+  color: rgba(0, 0, 0, 0.7);
+  padding: 16px 26px;
+}
+main #blog .wrapper {
+  flex-wrap: wrap;
+}
+main #blog .wrapper .card {
+  margin-bottom: 48px;
+  position: relative;
+  padding: 8px;
+  max-width: 342.8px;
+  height: 329px;
+}
+main #blog .wrapper .card button {
+  top: 15px;
+  left: 15px;
+  position: absolute;
+  padding: 5px 12px;
+  font-family: SemiBold;
+  font-size: 14px;
+  color: #000000;
+}
+main #blog .wrapper .card .info {
+  margin-top: 16px;
+  margin-bottom: 14px;
+}
+main #blog .wrapper .card .info p {
+  font-family: Regular;
+  font-size: 14px;
+  letter-spacing: -0.28px;
+  color: rgba(0, 0, 0, 0.35);
+}
+main #blog .wrapper .card .info div {
+  column-gap: 8px;
+  display: flex;
+}
+main #blog .wrapper .card h1 {
+  margin-bottom: 14px;
+  font-family: Bold;
+  font-size: 18px;
+  color: #000000;
+  line-height: 27px;
+}
+main #blog .wrapper .card h4 {
+  font-family: Regular;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+}
+main #blog .blog_btn {
+  margin-left: calc(50% - 100px);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 13px 46px;
+  text-decoration: none;
+  margin-bottom: 48px;
+  border: none;
+  font-family: Bold;
+  font-size: 16px;
+  color: #ffffff;
+  background: #ba8d5b;
+  border-radius: 100px;
+}
+
+footer {
+  min-height: 454px;
+  background: #f9f8f7;
+}
+footer .container {
+  padding: 0 10px !important;
+}
+footer a {
+  font-family: SemiBold;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  color: #607987;
+  text-decoration: none;
+}
+footer .wrapper {
+  justify-content: space-between;
+  align-items: flex-start;
+  column-gap: 33px;
+  padding-top: 26px;
+  display: flex;
+}
+footer .wrapper .left p {
+  margin-bottom: 58px;
+  margin-top: 22px;
+  font-family: SemiBold;
+  max-width: 239px;
+  font-size: 14px;
+  line-height: 22px;
+  color: #607987;
+}
+footer .wrapper .left h2,
+footer .wrapper .left h3 {
+  font-family: SemiBold;
+  max-width: 239px;
+  font-size: 14px;
+  line-height: 22px;
+  color: #607987;
+}
+footer .wrapper .right .top {
+  display: flex;
+}
+footer .wrapper .right .top .col {
+  min-width: 274px;
+  display: flex;
+  flex-direction: column;
+}
+footer .wrapper .right .top .col div img {
+  display: none;
+}
+footer .wrapper .right .top .col a:first-child {
+  margin-top: 10px;
+  margin-bottom: 34px;
+  font-family: Bold;
+  font-size: 16px;
+  letter-spacing: -0.32px;
+  text-transform: capitalize;
+  color: #0f1826;
+}
+footer .wrapper .right .top .col a:last-child {
+  padding-bottom: 54px;
+}
+footer .wrapper .right .bottom {
+  padding-top: 34px;
+  border-top: 1px solid rgba(129, 117, 92, 0.3);
+  display: flex;
+}
+footer .wrapper .right .bottom .col {
+  min-width: 274px;
+  display: flex;
+  flex-direction: column;
+}
+footer .wrapper .right .bottom .col a:first-child {
+  margin-bottom: 16px;
+  font-family: Bold;
+  font-size: 16px;
+  letter-spacing: -0.32px;
+  text-transform: capitalize;
+  color: #0f1826;
+}
+footer .wrapper .right .bottom .col .telefon {
+  font-family: SemiBold;
+  font-size: 18px;
+  letter-spacing: -0.36px;
+  color: #607987;
+}
+footer .wrapper .right .bottom .col .txt1 {
+  max-width: 200px;
+}
+footer .wrapper .right .bottom .col .txt2 {
+  max-width: 235px;
+}
+footer .wrapper .right .bottom .huquq_2 {
+  display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    max-width: 1000px;
+  }
+  #intro {
+    height: 504px;
+    overflow: hidden;
+  }
+  #intro .wrapper {
+    position: relative;
+    overflow-x: hidden;
+    padding-bottom: 84px;
+  }
+  #intro .wrapper .left .left_txt h1 {
+    font-size: 40px;
+    line-height: 56px;
+  }
+  #intro .wrapper .left .left_txt p {
+    max-width: 325px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  #intro .wrapper .right img {
+    position: absolute;
+    height: 442.27px;
+    width: 760px;
+    top: 0;
+    left: 300px;
+  }
+  #advantages .container {
+    max-width: 960px;
+  }
+  #advantages .wrapper {
+    row-gap: 40px;
+  }
+  #advantages .wrapper .adv {
+    max-width: 460px;
+  }
+  #advantages .adv_more {
+    padding-top: 30px;
+  }
+  #partners .wrapper {
+    width: 960px;
+    justify-content: center;
+  }
+  #comments .wrapper {
+    margin-bottom: 30px !important;
+  }
+  #comments .wrapper .card:last-child {
+    display: none;
+  }
+  #comments .slider {
+    margin-bottom: 80px;
+    display: flex !important;
+  }
+  #comments .slider .slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    background: #e7e2dd;
+    border-radius: 44px;
+  }
+  #form .wrapper {
+    width: 960px !important;
+    height: 634px !important;
+  }
+  #form .wrapper .left {
+    width: 448px !important;
+    height: 634.08px;
+  }
+  #all_courses .wrapper {
+    display: none !important;
+  }
+  #all_courses .tablet {
+    margin-bottom: 475px;
+    display: flex !important;
+    column-gap: 31px;
+  }
+  #all_courses .tablet .card {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    background: #f9f8f7;
+    border-radius: 4px;
+    width: 464.5px;
+    height: 498px;
+  }
+  #all_courses .tablet .card .top {
+    position: relative;
+    left: 112px;
+  }
+  #all_courses .tablet .card .wrap .left {
+    display: flex;
+    flex-direction: column;
+  }
+  #all_courses .tablet .card .wrap .left .top_txt {
+    font-size: 24px !important;
+    margin-top: 33px;
+    height: 29px !important;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #all_courses .tablet .card .wrap .left .top_txt h2 {
+    font-family: Bold;
+    font-size: 28px;
+    letter-spacing: -0.56px;
+    color: #000000;
+  }
+  #all_courses .tablet .card .wrap .left .top_txt button {
+    border: none;
+    background: #d1d1d1;
+    border-radius: 4px;
+    font-family: Medium;
+    font-size: 14px;
+    color: #000000;
+    padding: 5px 12px;
+  }
+  #all_courses .tablet .card .wrap .left h3 {
+    height: 120px;
+    max-width: 100%;
+    font-family: Regular;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.28px;
+    color: rgba(0, 0, 0, 0.7);
+  }
+  #all_courses .tablet .card .info {
+    margin-top: 16px;
+  }
+  #all_courses .tablet .card .info p {
+    font-family: Regular;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #ba8d5b;
+  }
+  #blog .wrapper {
+    gap: 16px !important;
+    min-width: 960px;
+  }
+  #blog .wrapper .card {
+    width: 304.45px;
+    height: 311.66px;
+  }
+  #blog .wrapper .card .main_img {
+    width: 100%;
+    height: 164.66px;
+  }
+  footer .wrapper .right .top .col {
+    min-width: 229.91px !important;
+  }
+  footer .wrapper .right .bottom {
+    column-gap: 20px;
+  }
+  footer .wrapper .right .bottom .col {
+    min-width: 229.91px !important;
+  }
+}
+@media only screen and (max-width: 390px) {
+  .container {
+    max-width: 390px;
+    padding: 0 15px;
+  }
+  header .nav {
+    height: 62px;
+  }
+  header .nav .nav__list .nav__list__item:nth-child(1),
+  header .nav .nav__list .nav__list__item:nth-child(2),
+  header .nav .nav__list .nav__list__item:nth-child(4) {
+    display: none;
+  }
+  header .nav .nav__list .nav__list__item:nth-child(3) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 16px;
+  }
+  header .nav .nav__list .nav__list__item:nth-child(3) button {
+    height: 36px !important;
+    padding: 7px 22.2px 7px 21.8px !important;
+    font-size: 16px !important;
+  }
+  header .nav .nav__list .nav__list__item:nth-child(3) .burger_menu {
+    width: 24px;
+    height: 24px;
+    display: block;
+  }
+  header .nav .nav__logo {
+    width: 185px !important;
+    height: 39.77px !important;
+  }
+  #intro {
+    padding-top: 62px !important;
+    height: 308px !important;
+    overflow: hidden;
+  }
+  #intro .wrapper {
+    position: relative;
+    overflow-x: hidden;
+    padding-bottom: 84px;
+  }
+  #intro .wrapper .left .left_txt h1 {
+    margin-bottom: 12px !important;
+    font-size: 24px !important;
+    line-height: 36px !important;
+  }
+  #intro .wrapper .left .left_txt p {
+    margin-top: 0;
+    max-width: 325px;
+    font-size: 14px !important;
+    line-height: 20px !important;
+  }
+  #intro .wrapper .left button {
+    margin-top: 24px !important;
+  }
+  #intro .wrapper .right {
+    display: none;
+  }
+  #intro .wrapper .right img {
+    position: absolute;
+    height: 442.27px;
+    width: 760px;
+    top: 0;
+    left: 300px;
+  }
+  #advantages h2 {
+    font-size: 28px !important;
+  }
+  #advantages .wrapper {
+    gap: 0px;
+  }
+  #advantages .wrapper .adv {
+    column-gap: 20px !important;
+    height: auto !important;
+    max-width: 100% !important;
+    margin-bottom: 32px !important;
+  }
+  #advantages .adv_more {
+    padding-top: 30px;
+  }
+  #courses {
+    height: 442px !important;
+  }
+  #courses h3 {
+    font-family: Bold;
+    font-size: 26px !important;
+  }
+  #courses .wrapper {
+    row-gap: 24px !important;
+    column-gap: 0px !important;
+  }
+  #courses .wrapper .course {
+    width: 100% !important;
+  }
+  #partners h5 {
+    font-size: 28px !important;
+    line-height: 32px !important;
+  }
+  #partners p {
+    font-size: 14px !important;
+    line-height: 24px !important;
+  }
+  #partners .wrapper {
+    gap: 20px !important;
+    max-width: 100%;
+  }
+  #partners .wrapper .card:nth-child(1),
+  #partners .wrapper .card:nth-child(2),
+  #partners .wrapper .card:nth-child(3),
+  #partners .wrapper .card:nth-child(4) {
+    display: flex !important;
+  }
+  #partners .wrapper .card {
+    display: none !important;
+  }
+  #partners .slider {
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+    margin-bottom: 80px;
+    display: flex !important;
+  }
+  #partners .slider .dots {
+    width: 70px;
+    column-gap: 8px;
+    display: flex;
+  }
+  #partners .slider .dots .dot {
+    width: 8px;
+    height: 8px;
+    background: #000000;
+    opacity: 0.2;
+    border-radius: 4px;
+  }
+  #partners .slider .dots .dot:first-child {
+    background: #ba8d5b;
+    opacity: 1;
+  }
+  #partners .slider .slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    background: #e7e2dd;
+    border-radius: 44px;
+  }
+  #comments h2 {
+    font-family: Bold !important;
+    font-size: 28px !important;
+  }
+  #comments p {
+    font-family: Regular !important;
+    font-size: 13px !important;
+    line-height: 24px !important;
+  }
+  #comments .wrapper {
+    justify-content: center !important;
+    margin-bottom: 30px !important;
+  }
+  #comments .wrapper .card:nth-child(2),
+  #comments .wrapper .card:nth-child(3),
+  #comments .wrapper .card:nth-child(4) {
+    display: none;
+  }
+  #comments .slider {
+    margin-bottom: 80px;
+    display: flex !important;
+  }
+  #comments .slider .slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    background: #e7e2dd;
+    border-radius: 44px;
+  }
+  #form .wrapper {
+    height: auto !important;
+    padding: 16px;
+    width: 100% !important;
+  }
+  #form .wrapper .left {
+    display: none;
+  }
+  #form .wrapper .right {
+    width: 326px !important;
+    min-height: 551.39px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  #form .wrapper .right form {
+    padding: 0 !important;
+    padding: 16px !important;
+  }
+  #all_courses .top {
+    position: relative;
+    flex-direction: column !important;
+  }
+  #all_courses .top .search_in {
+    margin-bottom: 24px;
+  }
+  #all_courses .wrapper {
+    display: none !important;
+  }
+  #all_courses .tablet {
+    flex-wrap: wrap;
+    margin-bottom: 475px;
+    display: flex !important;
+    column-gap: 31px;
+    row-gap: 24px;
+  }
+  #all_courses .tablet .card {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    background: #f9f8f7;
+    border-radius: 4px;
+    width: 358px;
+    height: 525px;
+  }
+  #all_courses .tablet .card .top {
+    position: relative;
+    left: 60px;
+  }
+  #all_courses .tablet .card .wrap .left {
+    display: flex;
+    flex-direction: column;
+  }
+  #all_courses .tablet .card .wrap .left .top_txt {
+    font-size: 24px !important;
+    margin-top: 33px;
+    height: 29px !important;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #all_courses .tablet .card .wrap .left .top_txt h2 {
+    font-family: Bold;
+    font-size: 28px;
+    letter-spacing: -0.56px;
+    color: #000000;
+  }
+  #all_courses .tablet .card .wrap .left .top_txt button {
+    border: none;
+    background: #d1d1d1;
+    border-radius: 4px;
+    font-family: Medium;
+    font-size: 14px;
+    color: #000000;
+    padding: 5px 12px;
+  }
+  #all_courses .tablet .card .wrap .left h3 {
+    height: 120px;
+    max-width: 100%;
+    font-family: Regular;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.28px;
+    color: rgba(0, 0, 0, 0.7);
+  }
+  #all_courses .tablet .card .info {
+    margin-top: 46px;
+  }
+  #all_courses .tablet .card .info p {
+    font-family: Regular;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #ba8d5b;
+  }
+  #blog .btns {
+    flex-wrap: wrap;
+    row-gap: 24px;
+  }
+  #blog .wrapper {
+    min-width: 360px !important;
+    flex-wrap: wrap !important;
+    row-gap: 26px !important;
+  }
+  #blog .wrapper .card {
+    min-width: 100% !important;
+    margin-bottom: 0 !important;
+    width: 356px;
+    height: 318px;
+  }
+  #blog .wrapper .card .main_img {
+    width: 100%;
+    height: 182px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  footer {
+    position: relative;
+  }
+  footer .wrapper {
+    max-width: 360px !important;
+    display: flex;
+    flex-direction: column !important;
+  }
+  footer .wrapper .left .huquq {
+    display: none;
+  }
+  footer .wrapper .right .top {
+    row-gap: 24px;
+    flex-direction: column !important;
+  }
+  footer .wrapper .right .top .col {
+    max-width: 360px !important;
+    height: auto !important;
+  }
+  footer .wrapper .right .top .col div {
+    width: 360px !important;
+    display: flex;
+    align-items: center !important;
+    justify-content: space-between;
+  }
+  footer .wrapper .right .top .col div img {
+    display: block;
+  }
+  footer .wrapper .right .top .col .loyiha {
+    padding-bottom: 24px !important;
+  }
+  footer .wrapper .right .top .col a {
+    margin: 0 !important;
+    display: none;
+  }
+  footer .wrapper .right .top .col .a_first {
+    display: flex !important;
+  }
+  footer .wrapper .right .bottom {
+    flex-direction: column !important;
+    width: 100% !important;
+    width: 100% !important;
+    column-gap: 20px;
+  }
+  footer .wrapper .right .bottom .col {
+    width: 100% !important;
+    height: auto !important;
+  }
+  footer .wrapper .right .bottom .col:nth-child(1) {
+    margin-top: 20px;
+    order: 3;
+  }
+  footer .wrapper .right .bottom .col:nth-child(1) .txt1 {
+    max-width: 100% !important;
+  }
+  footer .wrapper .right .bottom .col:nth-child(1) .txt2 {
+    max-width: 100% !important;
+    font-size: 14px !important;
+    line-height: 22px !important;
+    padding-bottom: 20px;
+  }
+  footer .wrapper .right .bottom .col:nth-child(2) {
+    order: 1;
+  }
+  footer .wrapper .right .bottom .col:nth-child(3) {
+    order: 2;
+  }
+  footer .wrapper .right .bottom .huquq_2 {
+    padding-bottom: 36px;
+    order: 4;
+    column-gap: 15px;
+    display: flex;
+  }
+  footer .wrapper .right .bottom .huquq_2 h2,
+  footer .wrapper .right .bottom .huquq_2 h3 {
+    font-family: Semibold;
+    font-weight: 600;
+    font-size: 14px !important;
+    line-height: 22px !important;
+    letter-spacing: -0.28px;
+    color: #607987;
+  }
+}
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+  #intro {
+    background-color: #09111b !important;
+  }
+  #intro h1,
+  #intro h2,
+  #intro h3,
+  #intro h4,
+  #intro h5,
+  #intro h6,
+  #intro p {
+    color: #ffffff !important;
+  }
+  #advantages {
+    background-color: #021923 !important;
+  }
+  #advantages h1,
+  #advantages h2,
+  #advantages h3,
+  #advantages h4,
+  #advantages h5,
+  #advantages h6,
+  #advantages p {
+    color: #ffffff !important;
+  }
+  #courses {
+    background-color: #09111b !important;
+  }
+  #courses h1,
+  #courses h2,
+  #courses h3,
+  #courses h4,
+  #courses h5,
+  #courses h6,
+  #courses p {
+    color: #ffffff !important;
+  }
+  #partners {
+    background-color: #021923 !important;
+  }
+  #partners h1,
+  #partners h2,
+  #partners h3,
+  #partners h4,
+  #partners h5,
+  #partners h6,
+  #partners p {
+    color: #ffffff !important;
+  }
+  #comments {
+    background-color: #021923 !important;
+  }
+  #comments h1,
+  #comments h2,
+  #comments h3,
+  #comments h4,
+  #comments h5,
+  #comments h6,
+  #comments p {
+    color: #ffffff !important;
+  }
+  #form {
+    background-color: #021923 !important;
+  }
+  #form .wrapper {
+    background: rgba(249, 248, 247, 0.23) !important;
+  }
+  #form .wrapper .right {
+    background: #021923 !important;
+  }
+  #form .wrapper .right label {
+    color: #ba8d5b !important;
+  }
+  #form h1,
+  #form h2,
+  #form h3,
+  #form h4,
+  #form h5,
+  #form h6,
+  #form p,
+  #form a {
+    color: #ffffff !important;
+  }
+  footer {
+    background-color: #09111b !important;
+  }
+  footer h1,
+  footer h2,
+  footer h3,
+  footer h4,
+  footer h5,
+  footer h6,
+  footer p,
+  footer a {
+    color: #ffffff !important;
+  }
+}
+footer {
+  width: 100%;
+  height: auto;
+}/*# sourceMappingURL=style.css.map */

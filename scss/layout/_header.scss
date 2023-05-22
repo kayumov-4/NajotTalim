@@ -1,0 +1,58 @@
+header {
+  z-index: 9;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background: #f1f0ee;
+  .nav {
+    height: 84px;
+    @extend %between;
+    &__list {
+      display: flex;
+      column-gap: 35px;
+      align-items: center;
+      &__item {
+        list-style-type: none;
+        .burger_menu {
+          display: none;
+        }
+        &-link {
+          font-family: "Medium";
+          text-decoration: none;
+          text-transform: uppercase;
+          color: #030f1a;
+          &:hover {
+            color: silver;
+          }
+        }
+        &-btn {
+          padding: 11px 49.7px 11px 49.3px;
+          height: 44px;
+          background: #ffffff;
+          border-radius: 100px;
+          border: none;
+        }
+        &-moon {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 40px;
+          height: 40px;
+          background: #f5f5f5;
+          border-radius: 100px;
+          border: none;
+        }
+      }
+    }
+  }
+}
+// Dark theme
+
+@media (prefers-color-scheme: dark) {
+  header {
+    background: #0f1826;
+    a {
+      color: #fff !important;
+    }
+  }
+}

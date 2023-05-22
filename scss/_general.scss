@@ -1,0 +1,29 @@
+*::after,
+*::before,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+@font-face {
+  font-family: "Semibold";
+  src: url(/assets/fonts/Lato-Semibold.woff2);
+}
+
+@font-face {
+  font-family: "Bold";
+  src: url(/assets/fonts/Lato-Bold.woff2);
+}
+@font-face {
+  font-family: "ExtraBold";
+  src: url(/assets/fonts/Lato-Black.woff2);
+}
+@font-face {
+  font-family: "Regular";
+  src: url(/assets/fonts/Lato-Regular.woff2);
+}
+
+body {
+  font-family: Semibold;
+}
